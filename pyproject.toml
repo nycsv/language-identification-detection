@@ -1,0 +1,35 @@
+[project]
+name = "lid"
+version = "0.1.0"
+description = "Spoken language identification using FireRedLID and Meta MMS-LID"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "soundfile>=0.12",
+    "huggingface-hub>=0.24",
+]
+
+[project.optional-dependencies]
+mms = [
+    "torch",
+    "transformers>=4.51",
+]
+firered = [
+    "fireredasr2s @ git+https://github.com/FireRedTeam/FireRedASR2S.git",
+    "kaldi-native-fbank>=1.15",
+]
+
+[project.scripts]
+mms-lid = "lid.mms:main"
+firered-lid = "lid.firered:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lid"]
