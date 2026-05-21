@@ -165,6 +165,35 @@ wheels = [
 ]
 
 [[package]]
+name = "fasttext-numpy2-wheel"
+version = "0.9.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "pybind11" },
+    { name = "setuptools" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c0/8a/8c72c92cd91146ce9948421f3967bc2775deac5215eb8fa3b0487020881f/fasttext_numpy2_wheel-0.9.2.tar.gz", hash = "sha256:484bb7efb0d07c5b6235c8ab44d5e7ddcde5727a25dbc04d18175f777c1e799c", size = 73494, upload-time = "2024-11-05T13:54:19.159Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/50/d7/f3c7fd7c3e4d7e264fcdfcdc61457a084159380d0da21f1e69a949b53a97/fasttext_numpy2_wheel-0.9.2-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:a0f791752978043692c6bb5094bae0afeee505f4d50f441d4fa1f9da5233f1dc", size = 610891, upload-time = "2024-11-05T17:17:34.308Z" },
+    { url = "https://files.pythonhosted.org/packages/ac/f8/ac28bbc44d6519d8687902acf99a0b42e5feef908480cddb96186af1f8d1/fasttext_numpy2_wheel-0.9.2-cp311-cp311-manylinux2014_aarch64.whl", hash = "sha256:c98ad821cfc02a3e194892130bda970c1d8f6801a49c7117eae337d6b5be38db", size = 2979933, upload-time = "2024-11-05T17:44:14.41Z" },
+    { url = "https://files.pythonhosted.org/packages/8d/0a/c9197382fa9a83242a8e959ba8acff24398b439e7a4731f73bd3abb85a39/fasttext_numpy2_wheel-0.9.2-cp311-cp311-manylinux2014_armv7l.whl", hash = "sha256:67f57771f98b1275eb4e3987c54760e44ca7dd95ec10eb2dca0509c5f249f841", size = 2743663, upload-time = "2024-11-05T17:44:29.782Z" },
+    { url = "https://files.pythonhosted.org/packages/34/c7/7e3e6ff49e5e30fac520d00ea853bb81c98a427f7a2e50d4d2df5809526b/fasttext_numpy2_wheel-0.9.2-cp311-cp311-manylinux2014_ppc64.whl", hash = "sha256:561a6895416cdf3af5fdd792a51da92c40981951311971efae7b5cca280637ae", size = 3031295, upload-time = "2024-11-05T17:44:33.759Z" },
+    { url = "https://files.pythonhosted.org/packages/1d/1e/0ac4eec19d4d1d068f72b8b79f67e6d3fff15ff28bdf45188f5322ff9c6f/fasttext_numpy2_wheel-0.9.2-cp311-cp311-manylinux2014_ppc64le.whl", hash = "sha256:690e172053ebbb39a70ad1b45ed225993cd0dccaebed2343233909d518b98b26", size = 2914885, upload-time = "2024-11-05T17:44:21.217Z" },
+    { url = "https://files.pythonhosted.org/packages/8d/5a/d104602e301676d673dc11007be3db9d3774247369c3cf1dc2f6ec379a96/fasttext_numpy2_wheel-0.9.2-cp311-cp311-manylinux2014_s390x.whl", hash = "sha256:c7e2418f9d907fc68102587c559b707397c552e60cb854fbdb34464cc4c13e3d", size = 2941345, upload-time = "2024-11-05T17:44:07.913Z" },
+    { url = "https://files.pythonhosted.org/packages/92/a4/4dce97deb92057c2a71fc5f0d26a28507ecf8c6c64cd93f9edbd410a4caa/fasttext_numpy2_wheel-0.9.2-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:ef2f5caf30f7186eb08d3fc3ef598895aa534fc3a1cc31150904aaacee8a3c80", size = 4578625, upload-time = "2024-11-05T13:54:15.645Z" },
+    { url = "https://files.pythonhosted.org/packages/34/e7/c664619e42a38f0064f8d9100b76b3bb57bf2679360dece5cf245a5b980e/fasttext_numpy2_wheel-0.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:21ca228aad6c75349e1ccb231fa454b4ec5bdc2f8a510718d2b74b5742c65f20", size = 4669758, upload-time = "2024-11-05T13:54:09.381Z" },
+    { url = "https://files.pythonhosted.org/packages/f1/6d/752fee6620ad141346573692ee3d27a8dbfaf75211f02ebe73a86634b6c0/fasttext_numpy2_wheel-0.9.2-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:805ad5ec4299a0a896192ffeec7a1f296480fa6741078ef2c8e2f8068fa879a4", size = 607503, upload-time = "2024-11-05T17:16:28.402Z" },
+    { url = "https://files.pythonhosted.org/packages/43/af/4993e0bf993b26f31a1a2739db98dcad758afa21cca729caefbfb4d23c76/fasttext_numpy2_wheel-0.9.2-cp312-cp312-manylinux2014_aarch64.whl", hash = "sha256:37d085f4b0906732770087f8722b2413199343e01a7f4c31ebec07dfcb971b0b", size = 2992718, upload-time = "2024-11-05T17:44:16.309Z" },
+    { url = "https://files.pythonhosted.org/packages/d9/39/9b0f2038fe45ac92183971d8e52c1317c355d846fb30ff2d7a820ec971e8/fasttext_numpy2_wheel-0.9.2-cp312-cp312-manylinux2014_armv7l.whl", hash = "sha256:3c3de015610b9039acfd1c4cc4a66e88a84b8961384a5d37ef551c3465eb85fb", size = 2744844, upload-time = "2024-11-05T17:44:31.45Z" },
+    { url = "https://files.pythonhosted.org/packages/f2/ae/14b8fd0cd802a75ea33c92157f2893b185549aefcfbd7eff7582fc9657f4/fasttext_numpy2_wheel-0.9.2-cp312-cp312-manylinux2014_ppc64.whl", hash = "sha256:c53acbe99f588d4944c7e0784a4757dace564d1f268d5f154885d34451c66307", size = 3040695, upload-time = "2024-11-05T17:44:36.558Z" },
+    { url = "https://files.pythonhosted.org/packages/dd/93/c485ae800da47f6676c097f223493d895b24d3de35c5f5a80be6fcc173e5/fasttext_numpy2_wheel-0.9.2-cp312-cp312-manylinux2014_ppc64le.whl", hash = "sha256:2528a3466f898bb16cec2e3d9844c5f4b98ea0e7716bb6c023e74c30d13929d3", size = 2919414, upload-time = "2024-11-05T17:44:23.402Z" },
+    { url = "https://files.pythonhosted.org/packages/e9/70/ef326f7eff7e24b274a320c80479fa76860201ef460972c71cefc72f844b/fasttext_numpy2_wheel-0.9.2-cp312-cp312-manylinux2014_s390x.whl", hash = "sha256:a913f7ca57d3f3595d6e1221a2b724b131df2f304433e5ff3ba1fee5731f153a", size = 2955392, upload-time = "2024-11-05T17:44:09.67Z" },
+    { url = "https://files.pythonhosted.org/packages/df/13/f8a21e5aa6c0a3e382c2346322b6d70fe1435c85cd57c8913b56fc72441d/fasttext_numpy2_wheel-0.9.2-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:e1d50a174457a11d9317c5eaef007d0971a1baed4b15b8f5c404d69ba7ed2346", size = 4583847, upload-time = "2024-11-05T13:54:19.266Z" },
+    { url = "https://files.pythonhosted.org/packages/d4/9d/a78dfd3e996f5d3c91bcd14a4e249a90da038b99287fda43211281724fdb/fasttext_numpy2_wheel-0.9.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3e70c79c9ca670f36fcf639eea87bf44adff4082a966c62053747a7dee0f2898", size = 4686609, upload-time = "2024-11-05T13:54:11.194Z" },
+]
+
+[[package]]
 name = "filelock"
 version = "3.29.0"
 source = { registry = "https://pypi.org/simple" }
@@ -370,9 +399,13 @@ mms = [
     { name = "torch" },
     { name = "transformers" },
 ]
+text = [
+    { name = "fasttext-numpy2-wheel" },
+]
 
 [package.metadata]
 requires-dist = [
+    { name = "fasttext-numpy2-wheel", marker = "extra == 'text'" },
     { name = "fireredasr2s", marker = "extra == 'firered'", git = "https://github.com/FireRedTeam/FireRedASR2S.git" },
     { name = "huggingface-hub", specifier = ">=0.24" },
     { name = "kaldi-native-fbank", marker = "extra == 'firered'", specifier = ">=1.15" },
@@ -381,7 +414,7 @@ requires-dist = [
     { name = "torch", marker = "extra == 'mms'" },
     { name = "transformers", marker = "extra == 'mms'", specifier = ">=4.51" },
 ]
-provides-extras = ["mms", "firered"]
+provides-extras = ["mms", "firered", "text"]
 
 [[package]]
 name = "markdown-it-py"
@@ -725,6 +758,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/2c/3d/4159b57736ced0fd22553226df20a985ef7655519c80ffcb8a9fb49ebeee/proces-0.1.7.tar.gz", hash = "sha256:70a05d9e973dd685f7a9092c58be695a8181a411d63796c213232fd3fdc43775", size = 31188, upload-time = "2023-09-09T03:27:38.158Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/6f/88/06cc0c7d890ed8d7e16ef0e56880dea516a21643fb1f3a69a50f4cc6f716/proces-0.1.7-py3-none-any.whl", hash = "sha256:308325bbc96877263f06e57e5e9c760c4b42cc722887ad60be6b18fc37d68762", size = 137718, upload-time = "2023-09-09T03:27:35.463Z" },
+]
+
+[[package]]
+name = "pybind11"
+version = "3.0.4"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/cc/f0/35145a3c3baffeef55d4b8324caa33abaa8fa56ab345ecd4b2211d09163e/pybind11-3.0.4.tar.gz", hash = "sha256:3286b59c8a774b9ee650169302dd5a4eedc30a8617905a0560dd8ee44775130c", size = 589533, upload-time = "2026-04-19T03:08:15.925Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b3/06/c3a23c9a0263b136c519f033a58d4641e73065fefc7754e9667ec206d992/pybind11-3.0.4-py3-none-any.whl", hash = "sha256:961720ee652da51d531b7b2451a6bd2bc042b0106e6d9baa48ecb7d58034ce63", size = 314166, upload-time = "2026-04-19T03:08:14.091Z" },
 ]
 
 [[package]]

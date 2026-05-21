@@ -1,7 +1,7 @@
 [project]
 name = "lid"
 version = "0.1.0"
-description = "Spoken language identification using FireRedLID and Meta MMS-LID"
+description = "Spoken and text language identification using FireRedLID, Meta MMS-LID, GlotLID, and OpenLID"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -19,10 +19,15 @@ firered = [
     "fireredasr2s @ git+https://github.com/FireRedTeam/FireRedASR2S.git",
     "kaldi-native-fbank>=1.15",
 ]
+text = [
+    "fasttext-numpy2-wheel",
+]
 
 [project.scripts]
 mms-lid = "lid.mms:main"
 firered-lid = "lid.firered:main"
+glotlid = "lid.glotlid:main"
+openlid = "lid.openlid:main"
 
 [build-system]
 requires = ["hatchling"]
